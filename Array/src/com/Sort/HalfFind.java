@@ -41,15 +41,17 @@ public class HalfFind {
 
     }
 
+    //折半查找的核心算法
     public static int binarySearch(int[] a,int destElement) {
 
         int begin = 0;
 
         int end = a.length - 1;
 
-        int mid = (begin + end) / 2;
 
-        while (begin < end) {
+        while (begin <= end) {
+
+            int mid = (begin + end) / 2;
 
             if (a[mid] == destElement) {
 
