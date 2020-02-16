@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstract/Abstract.iml" filepath="$PROJECT_DIR$/Abstract/Abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exception/Exception.iml" filepath="$PROJECT_DIR$/Exception/Exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Extends/Extends.iml" filepath="$PROJECT_DIR$/Extends/Extends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Husband and Wife/Husband and Wife.iml" filepath="$PROJECT_DIR$/Husband and Wife/Husband and Wife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InnerClass/InnerClass.iml" filepath="$PROJECT_DIR$/InnerClass/InnerClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test.iml" filepath="$PROJECT_DIR$/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/User/User.iml" filepath="$PROJECT_DIR$/User/User.iml" />
+    </modules>
+  </component>
+</project>
