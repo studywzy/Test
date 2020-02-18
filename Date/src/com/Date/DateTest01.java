@@ -6,6 +6,14 @@ import java.util.Date;
 /**
  * @author Wzy
  * @date 2020-02-18 - 15:31
+ * 日期格式元素：
+ * y 年
+ * M 月
+ * d 日
+ * H 小时
+ * m 分
+ * s 秒
+ * S 毫秒
  */
 public class DateTest01 {
 
