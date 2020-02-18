@@ -11,7 +11,7 @@ public class IntegerTest01 {
 
     public static void main(String[] args) {
 
-        //可自动封箱拆箱
+        //jdk1.5之后可自动封箱拆箱
         //int -> Integer
         Integer i1 = 10;
 
