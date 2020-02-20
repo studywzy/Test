@@ -14,7 +14,7 @@ import java.util.Collection;
  *
  * Iterator iterator(); 获取集合所依赖的迭代器
  *
- * boolean remove(Object 0); 删除集合中某个元素
+ * boolean remove(Object o); 删除集合中某个元素
  *
  * int size(); 获取集合中元素的个数
  *
