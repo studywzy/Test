@@ -12,7 +12,7 @@ import java.util.Collection;
  *
  * boolean contains(Object o); 判断集合中是否包含某个元素
  *
- * Iterator<E> iterator(); 获取集合所依赖的迭代器
+ * Iterator iterator(); 获取集合所依赖的迭代器
  *
  * boolean remove(Object 0); 删除集合中某个元素
  *
