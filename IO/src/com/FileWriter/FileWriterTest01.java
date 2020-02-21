@@ -1,4 +1,4 @@
-package com.Writer;
+package com.FileWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.IOException;
  * @author Wzy
  * @date 2020-02-21 - 15:29
  *
- * java.io.Writer;
+ * java.io.FileWriter;
  *      java.io.OutputStreamWriter; 转换流（文件字节输出流 --> 文件字符输出流）
  *              java.io.FileWriter; 文件字符输出流
  */
