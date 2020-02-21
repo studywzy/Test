@@ -27,7 +27,8 @@ public class FileInputStreamTest01 {
             //文件路径
             //String filepath = "temp01.rtf";//相对路径，相对于当前路径而言，在当前路径下找,不知为何报错
             //绝对路径
-            String filepath = "/Users/oushinu/IdeaProjects/Test/IO/src/com/FileInputStream/temp01.rtf";
+            String filepath = "/Users/oushinu/IdeaProjects/Test/IO" +
+                    "/src/com/FileInputStream/temp01.rtf";
 
             fis = new FileInputStream(filepath);
 
