@@ -12,6 +12,9 @@ import java.io.IOException;
  *          java.io.FileInputStream; //文件字节输入流
  *
  *          按照字节方式读取文件
+ *
+ *          以下程序缺点：频繁访问磁盘，容易损伤磁盘
+ *          效率低
  */
 public class FileInputStreamTest01 {
 
