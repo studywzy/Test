@@ -18,7 +18,7 @@ public class RandomNumberDif {
 
         int index = 0;
 
-        while (true){
+        while (true){//确保不重复且存五个进数组
 
             int temp = r.nextInt(6);
 
