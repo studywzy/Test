@@ -22,6 +22,7 @@ public class DataInputStreamTest01 {
         int i = dis.readInt();
         long l = dis.readLong();
         float f = dis.readFloat();
+        double d = dis.readDouble();
         boolean flag = dis.readBoolean();
         char c = dis.readChar();
 
@@ -30,6 +31,7 @@ public class DataInputStreamTest01 {
         System.out.println(i);
         System.out.println(l);
         System.out.println(f);
+        System.out.println(d);
         System.out.println(flag);
         System.out.println(c);
 
