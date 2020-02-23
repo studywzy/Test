@@ -14,7 +14,7 @@ public class GenericTest02 {
 
     public static void main(String[] args) {
         //创建一个List集合，只能存储字符串类型
-        //JDK1.7之后后面的菱形框可以不写类型
+        //JDK1.7之后构造方法的菱形框可以不写类型
         List<String> s = new ArrayList<>();
 
         //添加元素
