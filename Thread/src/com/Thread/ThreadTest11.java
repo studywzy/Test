@@ -43,7 +43,19 @@ class Account1 extends Account{
     //对外提供一个取款的方法
     public void withdraw(double money){
 
-        //把需要同步的代码，放到同步语句块中
+        /*
+        把需要同步的代码，放到同步语句块中(synchronized关键字也可以加在成员方法前面，但是加在需要
+        同步的代码更精确，建议不要加在成员方法前面)
+
+            原理：t1线程和t2线程
+            t1线程执行到此处，遇到了synchronized关键字，就会去找this的对象锁
+            如果找到this对象锁，则进入同步语句块中执行程序。当同步语句块中的代码
+            执行结束后，t1线程归还this的对象锁
+
+            在t1线程执行同步语句块的过程中，如果t2线程也过来执行以下代码，也遇到
+            synchronized关键字，所以也去找this的对象锁，但是该对象锁被t1线程持有，
+            只能等待this对象锁的归还
+         */
         synchronized (this){
             double after = this.getBalance() - money;
 
