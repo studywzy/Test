@@ -13,7 +13,7 @@ import java.util.LinkedList;
  *
  * 这种方式是所有集合通用的遍历方式
  */
-public class CollecrtionTest02 {
+public class CollectionTest02 {
 
     public static void main(String[] args) {
 
