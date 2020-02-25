@@ -30,6 +30,7 @@ public class CollectionsTest01 {
 
         //排序
         Collections.sort(l);//只能对List类型排序，元素必须是可比较的，实现Comparable接口
+        // 或者创建集合的时候使用比较器Comparator
 
         System.out.println("------------");
 
