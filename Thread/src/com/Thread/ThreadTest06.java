@@ -5,6 +5,7 @@ package com.Thread;
  * @date 2020-02-23 - 11:39
  *
  * 某线程正在休眠，如何打断它的休眠
+ * t.interrupt(); 方法
  * 以下方式依靠异常处理机制
  */
 public class ThreadTest06 {
